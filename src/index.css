@@ -1,0 +1,134 @@
+
+body{
+
+  background-color: black;
+  color: white;
+  min-width: 62rem;
+  overflow: auto;
+}
+.left
+{
+   width:49.90%;
+   border:4px solid rgb(6, 246, 230);
+   height:700px;
+   float:left;
+   box-sizing: border-box;
+   padding-top: 35px;
+   min-width: 30rem;
+}
+.move1{
+  position: relative;
+  left:2rem;
+}
+ul{
+  color: rgb(6, 246, 230);
+  display: flex;
+  justify-content: start;
+  width:100%;
+}
+
+li{
+    position: relative;
+    float:left;
+    margin-right: 1.4rem;  
+    left: -28px; 
+}
+.profile{
+   display: flex;
+   padding-top: 40px;
+}
+
+.exercise
+{
+   float: left;
+   justify-content:center;
+   display: flex;
+   border:1px solid rgb(6, 246, 230);
+   padding: 10px;
+   margin-right: 10px;
+}
+.timedown{
+   position: absolute;
+   display: flex;
+   top: 150px;
+   margin-left: -200px;;
+}
+
+.spent{ 
+  border:4px solid white;
+  border-radius: 50%;
+  height:380px;
+  width:360px;
+  box-shadow: 0px 0px 20px 0px  rgb(6, 246, 230);
+  z-index: 99;
+ background-color: black;
+  }
+.lab{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+ 
+}
+
+label{
+  padding-top: 25px;
+}
+input{
+  border: 1px solid  rgb(6, 246, 230);
+  height:40px;
+  width:18rem;
+  background-color: transparent;
+  color:rgb(6, 246, 230) ;
+  font-size: 40px;
+  text-align: center;
+}
+input:focus{
+  border: 1px solid  rgb(6, 246, 230);
+}
+button{
+  background-color:rgb(6, 246, 230);
+  font-size: 35px;
+  font-weight: bolder;
+  margin-top: 25px;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+}
+
+.right{
+  width:49.90%;
+  border:4px solid rgb(6, 246, 230);
+  height:auto;
+  box-sizing: border-box;
+  min-width: 30rem;
+  display: flex;
+
+}
+.container{
+   position: absolute;
+   height:700px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-left: 320px;
+}
+.time{
+         display: flex;
+         justify-content: center;
+         position: relative;
+         align-items: end;
+         height:692px;
+         left:10em;
+         bottom:40px;       
+}
+.box
+{
+   border:1px solid  rgb(6, 246, 230);
+   width:70px;
+   height:25px;
+   position: relative;
+}
+
+
